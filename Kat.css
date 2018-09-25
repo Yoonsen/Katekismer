@@ -1,0 +1,77 @@
+    root > katekisme > *, root > forfatter > * {
+        
+        display:block;
+    }
+
+    * {
+        word-break:break-all;
+    }
+
+    root {
+        width:70%;
+        margin-right: 10%;
+        margin-left: 20%
+    }
+    root > forfatter {
+        margin: 25pt;
+    }
+    katekisme {
+        margin:25pt;
+    }
+
+    tittel {
+        font-weight:bold;
+        font-size:1.2em;}
+     
+    katekisme > forfatter {
+        font-style:italic;
+    }
+    
+    alder {
+        color:pink;
+    }
+
+    boktrykker {
+
+    }
+    
+   
+    kommentar: {all:unset;}
+    kommentar {
+        font-style:italic;
+        font-size: 0.8em;
+        color: brown}
+
+    kommentar::before {
+        content: " [";
+    }
+    kommentar::after {
+        content: "] ";
+    }
+
+    forlegger {}
+forlegger::before {
+    content:'Forlegger ' ;
+    font-size:1.1em;
+    color:blue;
+
+}
+utgiversted {}
+    utgiversted {}
+    utgivelsesår {}
+    utgave {}
+    format {}
+    sidetall {}
+    språk {}
+    typografi {}
+    form {}
+    autorisasjon {}
+    dedikasjon {}
+    fortale {}
+    merknad {}
+    kilde {}
+    Oriakilde {}
+    tillegg {}
+    signatur {}
+    objekt-id {}
+    fulltekst {}
